@@ -12,6 +12,7 @@
   <body>
     <div class="restaurant container">
       <div class="restaurant-galarey">
+        <div class="box-top">
         <p class="decor-par">Amet minim mollit non</p>
         <h2 class="rest-title">MIMIHO</h2>
         <p class="rest-text">
@@ -19,7 +20,7 @@
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-        <picture>
+        <picture class="man-img">
           <source
             srcset="
               ../src/img/rest-desc-1.jpg    1x,
@@ -50,18 +51,19 @@
             height="322"
           />
 
-          <img
+          <img class="man-img"
             src="../src/img/rest-desc-1.jpg"
             alt="Chris standing up holding his daughter Elva"
             width="200"
           />
         </picture>
-        <picture>
+        </div>
+        <div class="box-buttom">
+        <picture class="meet-img">
           <source
             srcset="
               ../src/img/rest-desc-2.jpg    1x,
-              ../src/img/rest-desc-2@2x.jpg 2x
-            "
+              ../src/img/rest-desc-2@2x.jpg 2x"
             media="(min-width: 1200px)"
             width="522"
             height="574"
@@ -87,6 +89,7 @@
             height="322"
           />
           <img
+          class="meet-img"
             src="../src/img/rest-desc-2.jpg"
             alt="Chris standing up holding his daughter Elva"
             width="200"
@@ -97,7 +100,7 @@
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-
+</div>
         <div class="restaurant-menu">
           <h3 class="menu-title">МЕНЮ РЕСТОРАНУ</h3>
           <table class="menu-tadle">
@@ -285,6 +288,45 @@
               <td class="menu-price">260 грн</td>
             </tr>
             <tr></tr>
+          </table>
+          <table class="menu-tadle">
+            <caption class="menu-section">
+              Напої
+            </caption>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Чай чорний/зелений</span>
+              </td>
+              <td class="menu-quantity">500 мл</td>
+              <td class="menu-price">100 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Еспресо</span>
+              </td>
+              <td class="menu-quantity">30 мл</td>
+              <td class="menu-price">100 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Американо</span>
+              </td>
+              <td class="menu-quantity">150 мл</td>
+              <td class="menu-price">100 грн</td>
+            </tr>
+            <td class="ingredients">
+                <span class="food-name">Капучино</span>
+              </td>
+              <td class="menu-quantity">200 мл</td>
+              <td class="menu-price">160 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Лате</span>
+              </td>
+              <td class="menu-quantity">200 мл</td>
+              <td class="menu-price">160 грн</td>
+            </tr>
           </table>
         </div>
       </div>

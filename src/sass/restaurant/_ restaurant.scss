@@ -28,9 +28,15 @@
   color: #7a7a7a;
   margin-bottom: 28px;
 }
-
-.box-img {
-  width: 300px;
+.man-img {
+  margin-bottom: 32px;
+  // margin-left: 155px;
+}
+.box-buttom {
+  display: flex;
+}
+.meet-pictyre {
+  margin-right: 20px;
 }
 .rest-info {
   width: 163px;
@@ -96,22 +102,25 @@ span {
   font-weight: 700;
 }
 table {
-  max-width: 384px;
+  min-width: 100%;
   margin-bottom: 16px;
 }
 
 td {
-  // border: 1px solid red;
-  font-size: 10px;
+  border: 1px solid red;
 }
-.menu-name {
-  width: 200px;
+
+.ingredients {
+  width: 150px;
+  padding-right: 35px;
 }
 .menu-quantity {
+  // width: 70px;
   width: 15%;
   text-align: center;
 }
 .menu-price {
+  // width: 70px;
   width: 15%;
   text-align: center;
 }
