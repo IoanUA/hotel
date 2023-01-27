@@ -11,101 +11,283 @@
 
   <body>
     <div class="restaurant container">
-      <p class="decor-par">Amet minim mollit non</p>
-      <h2 class="rest-title">MIMIHO</h2>
-      <p class="rest-text">
-        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-        sint. Velit officia consequat duis enim velit mollit. Exercitation
-        veniam consequat sunt nostrud amet.
-      </p>
-      <picture>
-        <source />
-        <source />
-        <source />
-        <img src="" alt="" />
-      </picture>
-      <picture>
-        <source />
-        <source />
-        <source />
-        <img src="" alt="" />
+      <div class="restaurant-galarey">
+        <p class="decor-par">Amet minim mollit non</p>
+        <h2 class="rest-title">MIMIHO</h2>
+        <p class="rest-text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <picture>
+          <source
+            srcset="
+              ../src/img/rest-desc-1.jpg    1x,
+              ../src/img/rest-desc-1@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+            width="522"
+            height="574"
+          />
+
+          <source
+            srcset="
+              ../src/img/rest-tab-1.jpg     1x,
+              ../src/img/rest-tab-1-@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            width="400"
+            height="524"
+          />
+
+          <source
+            srcset="
+              ../src/img/rest-mob-1.jpg      1x,
+              ../src/img/rest-mob-1-@2x-.jpg 2x
+            "
+            media="(max-width: 767px)"
+            width="293"
+            height="322"
+          />
+
+          <img
+            src="../src/img/rest-desc-1.jpg"
+            alt="Chris standing up holding his daughter Elva"
+            width="200"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="
+              ../src/img/rest-desc-2.jpg    1x,
+              ../src/img/rest-desc-2@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+            width="522"
+            height="574"
+          />
+
+          <source
+            srcset="
+              ../src/img/rest-tab-2.jpg     1x,
+              ../src/img/rest-tab-2-@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+            width="400"
+            height="524"
+          />
+
+          <source
+            srcset="
+              ../src/img/rest-mob-2.jpg     1x,
+              ../src/img/rest-mob-2-@2x.jpg 2x
+            "
+            media="(max-width: 767px)"
+            width="293"
+            height="322"
+          />
+          <img
+            src="../src/img/rest-desc-2.jpg"
+            alt="Chris standing up holding his daughter Elva"
+            width="200"
+          />
+        </picture>
         <p class="rest-info">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
         </p>
-      </picture>
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div>
-          ...
+
+        <div class="restaurant-menu">
+          <h3 class="menu-title">МЕНЮ РЕСТОРАНУ</h3>
+          <table class="menu-tadle">
+            <caption class="menu-section">
+              Гарячі страви
+            </caption>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name"> Борщ з телятини з квасолею</span>
+                <br />
+                Телятина, картопля, капуста, морква, цибуля, квасоля, часник,
+                помідори, зелень, сметана
+              </td>
+              <td class="menu-quantity">400 г</td>
+              <td class="menu-price">240 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name"> Суп сирний з куркою</span>
+                <br />
+                Курятина, картопля, морква, цибуля, печериці, сир м’який, зелень
+              </td>
+              <td class="menu-quantity">400 г</td>
+              <td class="menu-price">240 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Паста карбонара</span>
+                <br />
+                Паста тальятеле, бекон, вершки, сир пармезан, яйце, зелень
+              </td>
+              <td class="menu-quantity">350 г</td>
+              <td class="menu-price">430 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Стейк зі свинини</span>
+                <br />
+                Свиняча вирізка, спеціі, подається з соусом солодкий чилі та
+                овочами
+              </td>
+              <td class="menu-quantity">400 г</td>
+              <td class="menu-price">500 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Горбуша в соусі з білого вина</span>
+                <br />
+                Ніжна горбуша, вершковий соус на основі білого вина
+              </td>
+              <td class="menu-quantity">400 г</td>
+              <td class="menu-price">400 грн</td>
+            </tr>
+          </table>
+          <table class="menu-tadle">
+            <caption class="menu-section">
+              Гарніри та закуски
+            </caption>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name"> Запечені овочі</span>
+                <br />
+                Кабачок, перець, помідор, баклажан
+              </td>
+              <td class="menu-quantity">200 г</td>
+              <td class="menu-price">230 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Картопля фрі</span>
+                <br />
+                Картопля, соус томатний
+              </td>
+              <td class="menu-quantity">150 г</td>
+              <td class="menu-price">160 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Картопля по-селянськи</span>
+                <br />
+                Картопля, спеції, соус пікантний
+              </td>
+              <td class="menu-quantity">150 г</td>
+              <td class="menu-price">160 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Хрумкі соління з бочки</span>
+                <br />
+                Огірок солений, помідор квашений, квашена капуста, морква
+                по-корейські
+              </td>
+              <td class="menu-quantity">250 г</td>
+              <td class="menu-price">360 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Крильця курячі в медовому соусі</span>
+                <br />
+                Крильця курячі, гірчично-медовий соус, подається з морквою,
+                селерою і соусом блючиз
+              </td>
+              <td class="menu-quantity">400 г</td>
+              <td class="menu-price">420 грн</td>
+            </tr>
+          </table>
+          <table class="menu-tadle">
+            <caption class="menu-section">
+              Салати
+            </caption>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name"> Цезар з куркою</span>
+                <br />
+                Куряче філе, листя салату, помідори чері, сир пармезан, грінки,
+                соус цезар
+              </td>
+              <td class="menu-quantity">230 г</td>
+              <td class="menu-price">450 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Цезар з креветками</span>
+                <br />
+                Тигрові креветки, листя салату, помідори чері, сир пармезан,
+                грінки, соус цезар
+              </td>
+              <td class="menu-quantity">230 г</td>
+              <td class="menu-price">300 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Картопля по-селянськи</span>
+                <br />
+                Картопля, спеції, соус пікантний
+              </td>
+              <td class="menu-quantity">150 г</td>
+              <td class="menu-price">160 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Грецький салат</span>
+                <br />
+                Свіжі огірок, помідор, болгарський перець, оливки, сир бринза,
+                листя салату, соус
+              </td>
+              <td class="menu-quantity">230 г</td>
+              <td class="menu-price">280 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">М’ясний салат</span>
+                <br />
+                Куряче філе або свиняча вирізка, свіжі огірок, помідор,
+                болгарський перець, соус ранч
+              </td>
+              <td class="menu-quantity">230 г</td>
+              <td class="menu-price">300 грн</td>
+            </tr>
+          </table>
+
+          <table class="menu-tadle">
+            <caption class="menu-section">
+              Десерти
+            </caption>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Торт наполеон</span>
+              </td>
+              <td class="menu-quantity">230 г</td>
+              <td class="menu-price">300 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Торт маковий</span>
+              </td>
+              <td class="menu-quantity">230 г</td>
+              <td class="menu-price">300 грн</td>
+            </tr>
+            <tr>
+              <td class="ingredients">
+                <span class="food-name">Тірамісу</span>
+              </td>
+              <td class="menu-quantity">120 г</td>
+              <td class="menu-price">260 грн</td>
+            </tr>
+            <tr></tr>
+          </table>
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
       </div>
-      <h2>МЕНЮ РЕСТОРАНУ</h2>
-      <table>
-        <caption>
-          Гарячі страви
-        </caption>
-        <tr>
-          <td class="menu-name">
-            <span> Борщ з телятини з квасолею</span>
-            <br />
-            Телятина, картопля, капуста, морква, цибуля, квасоля, часник,
-            помідори, зелень, сметана
-          </td>
-          <td class="menu-quantity">400 г</td>
-          <td class="menu-price">240 грн</td>
-        </tr>
-        <tr>
-          <td class="menu-name">
-            <span> Суп сирний з куркою</span>
-            <br />
-            Курятина, картопля, морква, цибуля, печериці, сир м’який, зелень
-          </td>
-          <td class="menu-quantity">400 г</td>
-          <td class="menu-price">240 грн</td>
-        </tr>
-        <tr>
-          <td class="menu-name">
-            <span>Паста карбонара</span>
-            <br />
-            Паста тальятеле, бекон, вершки, сир пармезан, яйце, зелень
-          </td>
-          <td class="menu-quantity">350 г</td>
-          <td class="menu-price">430 грн</td>
-        </tr>
-        <tr>
-          <td class="menu-name">
-            <span>Стейк зі свинини</span>
-            <br />
-            Свиняча вирізка, спеціі, подається з соусом солодкий чилі та овочами
-          </td>
-          <td class="menu-quantity">400 г</td>
-          <td class="menu-price">500 грн</td>
-        </tr>
-        <tr>
-          <td class="menu-name">
-            <span>Горбуша в соусі з білого вина</span>
-            <br />
-            Ніжна горбуша, вершковий соус на основі білого вина
-          </td>
-          <td class="menu-quantity">400 г</td>
-          <td class="menu-price">400 грн</td>
-        </tr>
-      </table>
     </div>
   </body>
 </html>

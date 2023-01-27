@@ -17,7 +17,6 @@ ul {
 img {
   display: block;
   max-width: 100%;
-  width: 100%;
   height: auto;
 }
 
@@ -35,7 +34,7 @@ li {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: solid 1px red;
+  // outline: solid 1px red;
   @media screen and (min-width: 480px) {
     width: 480px;
   }
@@ -45,6 +44,6 @@ li {
   }
 
   @media screen and (min-width: 1200px) {
-    width: 1200px;
+    width: 1280px;
   }
 }

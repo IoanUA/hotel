@@ -28,6 +28,10 @@
   color: #7a7a7a;
   margin-bottom: 28px;
 }
+
+.box-img {
+  width: 300px;
+}
 .rest-info {
   width: 163px;
   font-family: "Montserrat";
@@ -37,15 +41,67 @@
   letter-spacing: 0.02em;
   color: #c79002;
 }
+.menu-title {
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: calc(37 / 32);
+  color: #000000;
+  margin-bottom: 32px;
+}
+.menu-section {
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: calc(32 / 20);
+  color: #000000;
+  margin-bottom: 16px;
+  text-align: start;
+}
+.food-name {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.ingredients {
+  font-family: "Montserrat";
+  font-size: 10px;
+  line-height: calc(12 / 10);
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.menu-quantity {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.menu-price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
 span {
   font-weight: 700;
 }
 table {
-  width: 100%;
+  max-width: 384px;
+  margin-bottom: 16px;
 }
 
 td {
-  border: 1px solid red;
+  // border: 1px solid red;
   font-size: 10px;
 }
 .menu-name {
@@ -53,7 +109,24 @@ td {
 }
 .menu-quantity {
   width: 15%;
+  text-align: center;
 }
 .menu-price {
   width: 15%;
+  text-align: center;
 }
+
+// table {
+//   tr {
+//     td {
+//       color: red;
+//       &:nth-child(2) {
+//         text-align: center;
+//       }
+//       &:nth-child(2) {
+//         text-align: center;
+//         color: green;
+//       }
+//     }
+//   }
+// }
